@@ -10,13 +10,18 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+
 	cout << "====================================";
+
 	int p , q;
 	cout << "\nNhap p: ";
 	cin >> p;
 	cout << "\nNhap q: ";
 	cin >> q;
 	cout << "\nTich cua p*q = " << tich(p,q);
+
+	cout << "====================================";
+
 	system("pause");
 	return 0;
 } 
