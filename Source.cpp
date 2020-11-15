@@ -6,7 +6,10 @@ int hieu(int a, int b)
 {
 	return a-b;
 }
-int tich(int a, int b);
+int hieu(int a, int b);
+int tich(int a, int b) {
+	return a*b;
+}
 float thuong(int a, int b);
 int main()
 {
@@ -17,6 +20,8 @@ int main()
 	cout<<"\nNhap b:";
 	cin>>b;
 	cout<<"Hieu la: "<<hieu(a,b);
+	cout << "\nTich la: " << tich(a,b);
+
 	system("pause");
 	return 0;
 } 
